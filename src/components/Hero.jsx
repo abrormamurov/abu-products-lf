@@ -49,11 +49,7 @@ function Hero() {
           <Link to="/products">
             <div to="/products" className="card w-96 bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
-                <img
-                  src="/public/image.png"
-                  alt="Shoes"
-                  className="rounded-xl"
-                />
+                <img src="/public/image.png" alt="" className="rounded-xl" />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title">Avant-Garde Lamp</h2>
@@ -65,7 +61,7 @@ function Hero() {
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  src="/public/image2.jpg"
                   alt="Shoes"
                   className="rounded-xl"
                 />
@@ -80,7 +76,7 @@ function Hero() {
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                  src="/public/image3.jpg"
                   alt="Shoes"
                   className="rounded-xl"
                 />
