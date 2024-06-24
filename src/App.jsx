@@ -14,6 +14,10 @@ import {
   SingleProducts,
 } from "./pages";
 
+import { loader as LandingLoader } from "./pages/Landing";
+import { loader as SingleLoader } from "./pages/SingleProducts";
+import { loader as ProductsLoader } from "./pages/Products";
+
 function App() {
   const routes = createBrowserRouter([
     {
@@ -24,14 +28,17 @@ function App() {
         {
           index: true,
           element: <Landing />,
+          loader: LandingLoader,
         },
         {
-          path: "/products",
+          path: "/prodacts",
           element: <Products />,
+          loader: ProductsLoader,
         },
         {
-          path: "/product",
+          path: "/prodact/:id",
           element: <SingleProducts />,
+          loader: SingleLoader,
         },
         {
           path: "/cart",

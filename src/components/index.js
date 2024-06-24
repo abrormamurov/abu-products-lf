@@ -3,3 +3,8 @@ export { default as FormInput } from "./FormInput";
 export { default as SubmitBtn } from "./SubmitBtn";
 export { default as Header } from "./Header";
 export { default as Hero } from "./Hero";
+export { default as FeaturesProducts } from "./FeaturesProducts";
+export { default as SectionTitle } from "./SectionTitle";
+export { default as ProductsGrid } from "./ProductsGrid";
+export { default as ProducList } from "./ProducList";
+export { default as ProductsContainer } from "./ProductsContainer";
